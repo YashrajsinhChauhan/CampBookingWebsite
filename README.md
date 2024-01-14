@@ -1,9 +1,9 @@
 # CampBookingWebsite
 • Developed a Campsite Booking Web Application, providing a platform for users to find and book campsites.
-• Integrated a feature that allows users to filter campsites based on provided equipment and availability for a specified number of nights.
-• Implemented a seamless booking functionality, enhancing user experience.
-• Incorporated a feature to generate reservation receipts that include cost and tax details, ensuring transparency in transactions.
-• Designed a user-friendly interface for easy navigation and efficient booking process.
+<br>• Integrated a feature that allows users to filter campsites based on provided equipment and availability for a specified number of nights.
+<br>• Implemented a seamless booking functionality, enhancing user experience.
+<br>• Incorporated a feature to generate reservation receipts that include cost and tax details, ensuring transparency in transactions.
+<br>• Designed a user-friendly interface for easy navigation and efficient booking process.
 
 <img width="1232" alt="web1" src="https://github.com/YashrajsinhChauhan/CampBookingWebsite/assets/90960084/b5046a6e-c248-44db-bbf1-1cff53bf7998">
 <img width="1239" alt="web2" src="https://github.com/YashrajsinhChauhan/CampBookingWebsite/assets/90960084/c3cfcbc5-522c-4546-9127-b6af9b250bd4">
