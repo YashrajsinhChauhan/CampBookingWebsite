@@ -1,0 +1,156 @@
+ /* universal css reset */
+ * {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Rubik", Arial, Helvetica, sans-serif;
+}
+
+header {    
+    background-color: black;
+    text-align: center;
+    
+}
+
+ul {
+    /* remove the bullet points on the list align-items */
+    list-style-type: none;
+}
+.subsections li a {
+    display:inline-block;
+    text-transform: uppercase;
+    padding:12px;
+    padding-bottom:20px;
+
+    font-size:18px;
+    font-weight: 600;
+
+
+    /* TODO: update the text color and background color */
+    color:black;
+}
+
+li {
+    display:inline;  
+    margin-right:20px;   
+}
+li a {
+    /* Add the underline */
+    text-decoration:underline;
+
+    /* needed so we can add widths and ensure padding looks correct */
+    display:inline-block;
+    text-transform: uppercase;
+    padding:12px;
+    padding-bottom:20px;
+
+    font-size:18px;
+    font-weight: 600;
+
+
+    /* TODO: update the text color and background color */
+    color:white;
+}
+
+main {
+    /* To create a background image that spans the entire height/width of an element:border: 
+    1. Specify the height of the element
+    2. Apply properties for adding a background-image */
+    /* 1. height of element */
+    height:100vh;
+    /* 2. properties for background */
+    background-image: url("/assets/background_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.heading{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin-top: 18%;
+    margin-bottom: 15px;
+}
+.main-container{
+    display:grid;
+    grid-template-rows: repeat(1, 1fr);
+    place-items: center;
+}
+.form-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    background-color: white;
+    height: 8em;
+    width: 60%;
+    padding: 30px;
+}
+.filters{
+    display: inline;
+    padding-right: 12px;
+}
+.filters  label {
+    display: block;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.filters  select {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+}
+#equipment-filter{
+    width: 90%;
+    height: 45%;
+}
+#nights-filter{
+    width: 70%;
+    height: 45%;
+
+}
+
+
+#reserve-button {
+
+    display: inline-block;
+    background-color: #00cc99;
+    width: 120px;
+    height: 38px;
+    font-size: medium;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#reserve-button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  #reserve-button {
+    padding: 0.25em 0.75em;
+  }
+}

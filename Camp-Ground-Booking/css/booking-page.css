@@ -1,0 +1,166 @@
+ /* universal css reset */
+ * {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Rubik", Arial, Helvetica, sans-serif;
+}
+
+header {    
+    background-color: black;
+    text-align: center;
+    
+}
+
+.subsections{
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+    /* border: 1px solid rebeccapurple; */
+}
+
+ul {
+    /* remove the bullet points on the list align-items */
+    list-style-type: none;
+}
+.subsections li a {
+    display:inline-block;
+    text-transform: uppercase;
+    padding:12px;
+    padding-bottom:20px;
+
+    font-size:20px;
+    font-weight: 600;
+
+
+    /* TODO: update the text color and background color */
+    color:#9f9e9e;
+}
+
+li {
+    display:inline;  
+    margin-right:20px;   
+}
+li a {
+    /* Add the underline */
+    text-decoration:underline;
+
+    /* needed so we can add widths and ensure padding looks correct */
+    display:inline-block;
+    text-transform: uppercase;
+    padding:12px;
+    padding-bottom:20px;
+
+    font-size:18px;
+    font-weight: 600;
+
+
+    /* TODO: update the text color and background color */
+    color:white;
+}
+
+.icon-large{
+    font-size: x-large;
+}
+.icon-small{
+    font-size: large;
+}
+
+.navigation-indicator a{
+    text-decoration:none;
+
+}
+
+.active-page{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00cc99;
+}
+
+.active-link{
+    color: black;
+
+}
+.subsection-heading{
+
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 600;
+    color: #adacac;
+
+}
+.site-details{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#reserve-button {
+    
+    display: inline-block;
+    background-color: #00cc99;
+    width: 120px;
+    height: 38px;
+    font-size: medium;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#reserve-button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  #reserve-button {
+    padding: 0.25em 0.75em;
+  }
+}
+
+#nights-input{
+    margin-left: 10px;
+    padding-left: 5px;
+}
+.nights-container{
+    margin-top: 15px;
+}
+.user-input{
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 25%;
+    height: 30%;
+
+}
+.error{
+    margin-top: 10px;
+    color: red;
+}
+.reservation-receipt{
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    height: 15%;
+    width: 40%;
+}
+.field-value{
+    margin-left: 5px;
+}
